@@ -8,6 +8,7 @@
                  [com.stuartsierra/component "0.4.0"]
                  [dawcs/flow "1.0.0"]
                  [io.pedestal/pedestal.jetty "0.5.5"]
+                 [prismatic/schema "1.1.12"]
                  [io.pedestal/pedestal.service "0.5.5"]
                  [io.pedestal/pedestal.service-tools "0.5.5"]
                  [prismatic/schema "1.1.10"]]
