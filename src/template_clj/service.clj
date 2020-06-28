@@ -1,12 +1,12 @@
-(ns marketplace-api.service
+(ns template-clj.service
   (:require [io.pedestal.http :as http]
             [io.pedestal.http.body-params :as body-params]
             [ring.util.response :as ring-resp]
-            [marketplace-api.protocols.storage-client :as storage-client]))
+            [template-clj.protocols.storage-client :as storage-client]))
 
 (defn home-page
   [request]
-  (ring-resp/response {:message "Hello World!!"}))
+  (ring-resp/response {:message "Hello World!!" :status 200}))
 
 (defn get-all-users! [storage]
   (storage-client/read-all storage))

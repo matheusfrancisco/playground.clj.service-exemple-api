@@ -1,4 +1,4 @@
-(ns marketplace-api.protocols.storage-client
+(ns template-clj.protocols.storage-client
   (:require [schema.core :as s]))
 
 (defprotocol StorageClient

@@ -1,6 +1,6 @@
-(ns marketplace-api.components.storage
+(ns template-clj.components.storage
   (:require [com.stuartsierra.component :as component]
-            [marketplace-api.protocols.storage-client :as storage-client]))
+            [template-clj.protocols.storage-client :as storage-client]))
 
 (defrecord InMemoryStorage [storage]
   component/Lifecycle
