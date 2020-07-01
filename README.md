@@ -1,5 +1,4 @@
-# Marketplace Api
-
+# Template API using clojure
 
 # How to run
 
